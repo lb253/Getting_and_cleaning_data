@@ -1,0 +1,99 @@
+###CodeBook
+
+##Getting and Cleaning Data 
+
+# Where the data come from
+
+as per the instructions : "One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones "
+
+#Variables
+
+-the first variable identify ( with a number the human subject)
+
+-the second variable describe the activity the subject was doing. Labels: WALKING, WALKING UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
+
+-following variables: Features (from -1 to 1). We selected for the assignement the features related to the mean and standard variation. we took  the average of each variable for each activity and each subject.
+
+    -timeBodyAccelerator Mean-X
+    -timeBodyAccelerator Mean-Y
+    -timeBodyAccelerator Mean-Z
+    -timeBodyAccelerator Standard Deviation-X
+    -timeBodyAccelerator Standard Deviation-Y
+    -timeBodyAccelerator Standard Deviation-Z
+    -timeGravityAccelerator Mean-X
+    -timeGravityAccelerator Mean-Y
+    -timeGravityAccelerator Mean-Z
+    -timeGravityAccelerator Standard Deviation-X
+    -timeGravityAccelerator Standard Deviation-Y
+    -timeGravityAccelerator Standard Deviation-Z
+    -timeBodyAcceleratorJerk Mean-X
+    -timeBodyAcceleratorJerk Mean-Y
+    -timeBodyAcceleratorJerk Mean-Z
+    -timeBodyAcceleratorJerk Standard Deviation-X
+    -timeBodyAcceleratorJerk Standard Deviation-Y
+    -timeBodyAcceleratorJerk Standard Deviation-Z
+    -timeBodyGyroscope Mean-X
+    -timeBodyGyroscope Mean-Y
+    -timeBodyGyroscope Mean-Z
+    -timeBodyGyroscope Standard Deviation-X
+    -timeBodyGyroscope Standard Deviation-Y
+    -timeBodyGyroscope Standard Deviation-Z
+    -timeBodyGyroscopeJerk Mean-X
+    -timeBodyGyroscopeJerk Mean-Y
+    -timeBodyGyroscopeJerk Mean-Z
+    -timeBodyGyroscopeJerk Standard Deviation-X
+    -timeBodyGyroscopeJerk Standard Deviation-Y
+    -timeBodyGyroscopeJerk Standard Deviation-Z
+    -timeBodyAcceleratorMagnitude Mean
+    -timeBodyAcceleratorMagnitude Standard Deviation
+    -timeGravityAcceleratorMagnitude Mean
+    -timeGravityAcceleratorMagnitude Standard Deviation
+    -timeBodyAcceleratorJerkMagnitude Mean
+    -timeBodyAcceleratorJerkMagnitude Standard Deviation
+    -timeBodyGyroscopeMagnitude Mean
+    -timeBodyGyroscopeMagnitude Standard Deviation
+    -timeBodyGyroscopeJerkMagnitude Mean
+    -timeBodyGyroscopeJerkMagnitude Standard Deviation
+    -frequencyBodyAccelerator Mean-X
+    -frequencyBodyAccelerator Mean-Y
+    -frequencyBodyAccelerator Mean-Z
+    -frequencyBodyAccelerator Standard Deviation-X
+    -frequencyBodyAccelerator Standard Deviation-Y
+    -frequencyBodyAccelerator Standard Deviation-Z
+    -frequencyBodyAccelerator MeanFreq-X
+    -frequencyBodyAccelerator MeanFreq-Y
+    -frequencyBodyAccelerator MeanFreq-Z
+    -frequencyBodyAcceleratorJerk Mean-X
+    -frequencyBodyAcceleratorJerk Mean-Y
+    -frequencyBodyAcceleratorJerk Mean-Z
+    -frequencyBodyAcceleratorJerk Standard Deviation-X
+    -frequencyBodyAcceleratorJerk Standard Deviation-Y
+    -frequencyBodyAcceleratorJerk Standard Deviation-Z
+    -frequencyBodyAcceleratorJerk MeanFreq-X
+    -frequencyBodyAcceleratorJerk MeanFreq-Y
+    -frequencyBodyAcceleratorJerk MeanFreq-Z
+    -frequencyBodyGyroscope Mean-X
+    -frequencyBodyGyroscope Mean-Y
+    -frequencyBodyGyroscope Mean-Z
+    -frequencyBodyGyroscope Standard Deviation-X
+    -frequencyBodyGyroscope Standard Deviation-Y
+    -frequencyBodyGyroscope Standard Deviation-Z
+    -frequencyBodyGyroscope MeanFreq-X
+    -frequencyBodyGyroscope MeanFreq-Y
+    -frequencyBodyGyroscope MeanFreq-Z
+    -frequencyBodyAcceleratorMagnitude Mean
+    -frequencyBodyAcceleratorMagnitude Standard Deviation
+    -frequencyBodyAcceleratorMagnitude MeanFreq
+    -frequencyBodyBodyAcceleratorJerkMagnitude Mean
+    -frequencyBodyBodyAcceleratorJerkMagnitude Standard  Deviation
+    -frequencyBodyBodyAcceleratorJerkMagnitude MeanFreq
+    -frequencyBodyBodyGyroscopeMagnitude Mean
+    -frequencyBodyBodyGyroscopeMagnitude Standard Deviation
+    -frequencyBodyBodyGyroscopeMagnitude MeanFreq
+    -frequencyBodyBodyGyroscopeJerkMagnitude Mean
+    -frequencyBodyBodyGyroscopeJerkMagnitude Standard Deviation
+    -frequencyBodyBodyGyroscopeJerkMagnitude MeanFreq
+
+
